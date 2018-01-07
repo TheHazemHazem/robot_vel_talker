@@ -1,0 +1,9 @@
+<launch>   
+    
+  <node name="listener" pkg="wyca_test" type="listener.py" output="screen">
+    <param name="voice" value="voice_don_diphone"/>
+  </node>
+  
+  <node name="soundplay_node" pkg="sound_play" type="soundplay_node.py" output="screen"/>
+
+</launch>
