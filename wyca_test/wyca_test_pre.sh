@@ -11,3 +11,7 @@ sudo apt-get install ros-kinetic-audio-common
 echo "***************************install libasound2***************************"
 
 sudo apt-get install libasound2
+
+echo "***************************install festvox-don sound***************************"
+
+sudo apt-get install festvox-don
